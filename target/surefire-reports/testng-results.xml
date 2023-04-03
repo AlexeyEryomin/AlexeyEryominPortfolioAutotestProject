@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-03T08:46:51Z" name="SmokeTest" finished-at="2023-04-03T08:46:57Z" duration-ms="6344">
+    <groups>
+    </groups>
+    <test started-at="2023-04-03T08:46:51Z" name="SmokeTest" finished-at="2023-04-03T08:46:57Z" duration-ms="6344">
+      <class name="tests.swag_labs_smoke.Smoke_test">
+        <test-method signature="smokeTest()[pri:0, instance:tests.swag_labs_smoke.Smoke_test@27be17c8]" started-at="2023-04-03T08:46:51Z" name="smokeTest" finished-at="2023-04-03T08:46:55Z" duration-ms="4382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokeTest -->
+        <test-method is-config="true" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.swag_labs_smoke.Smoke_test@27be17c8]" started-at="2023-04-03T08:46:55Z" name="clearCookiesAndLocalStorage" finished-at="2023-04-03T08:46:56Z" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesAndLocalStorage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.swag_labs_smoke.Smoke_test@27be17c8]" started-at="2023-04-03T08:46:56Z" name="close" finished-at="2023-04-03T08:46:57Z" duration-ms="1451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.swag_labs_smoke.Smoke_test -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- SmokeTest -->
+  <suite started-at="2023-04-03T08:47:11Z" name="Functional" finished-at="2023-04-03T08:47:31Z" duration-ms="19826">
+    <groups>
+    </groups>
+    <test started-at="2023-04-03T08:47:11Z" name="Add_product_to_cart_on_personal_product_page" finished-at="2023-04-03T08:47:14Z" duration-ms="2919">
+      <class name="tests.swag_labs_functional.Add_product_to_cart_on_personal_product_page">
+        <test-method signature="add_product_to_cart_on_personal_product_page()[pri:0, instance:tests.swag_labs_functional.Add_product_to_cart_on_personal_product_page@66bf40e5]" started-at="2023-04-03T08:47:11Z" name="add_product_to_cart_on_personal_product_page" finished-at="2023-04-03T08:47:14Z" duration-ms="2323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_product_to_cart_on_personal_product_page -->
+        <test-method is-config="true" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.swag_labs_functional.Add_product_to_cart_on_personal_product_page@66bf40e5]" started-at="2023-04-03T08:47:14Z" name="clearCookiesAndLocalStorage" finished-at="2023-04-03T08:47:14Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesAndLocalStorage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.swag_labs_functional.Add_product_to_cart_on_personal_product_page@66bf40e5]" started-at="2023-04-03T08:47:14Z" name="close" finished-at="2023-04-03T08:47:14Z" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.swag_labs_functional.Add_product_to_cart_on_personal_product_page -->
+    </test> <!-- Add_product_to_cart_on_personal_product_page -->
+    <test started-at="2023-04-03T08:47:14Z" name="Add_product_to_cart_on_product_page" finished-at="2023-04-03T08:47:18Z" duration-ms="3129">
+      <class name="tests.swag_labs_functional.Add_product_to_cart_on_product_page">
+        <test-method signature="add_product_to_cart_on_product_page()[pri:0, instance:tests.swag_labs_functional.Add_product_to_cart_on_product_page@2c748a15]" started-at="2023-04-03T08:47:14Z" name="add_product_to_cart_on_product_page" finished-at="2023-04-03T08:47:16Z" duration-ms="1923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_product_to_cart_on_product_page -->
+        <test-method is-config="true" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.swag_labs_functional.Add_product_to_cart_on_product_page@2c748a15]" started-at="2023-04-03T08:47:16Z" name="clearCookiesAndLocalStorage" finished-at="2023-04-03T08:47:16Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesAndLocalStorage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.swag_labs_functional.Add_product_to_cart_on_product_page@2c748a15]" started-at="2023-04-03T08:47:16Z" name="close" finished-at="2023-04-03T08:47:18Z" duration-ms="1184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.swag_labs_functional.Add_product_to_cart_on_product_page -->
+    </test> <!-- Add_product_to_cart_on_product_page -->
+    <test started-at="2023-04-03T08:47:18Z" name="Correct_image_on_product_page" finished-at="2023-04-03T08:47:20Z" duration-ms="2607">
+      <class name="tests.swag_labs_functional.Correct_image_on_product_page">
+        <test-method signature="correct_image_on_product_page()[pri:0, instance:tests.swag_labs_functional.Correct_image_on_product_page@6518fdfd]" started-at="2023-04-03T08:47:18Z" name="correct_image_on_product_page" finished-at="2023-04-03T08:47:20Z" duration-ms="2072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correct_image_on_product_page -->
+        <test-method is-config="true" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.swag_labs_functional.Correct_image_on_product_page@6518fdfd]" started-at="2023-04-03T08:47:20Z" name="clearCookiesAndLocalStorage" finished-at="2023-04-03T08:47:20Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesAndLocalStorage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.swag_labs_functional.Correct_image_on_product_page@6518fdfd]" started-at="2023-04-03T08:47:20Z" name="close" finished-at="2023-04-03T08:47:20Z" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.swag_labs_functional.Correct_image_on_product_page -->
+    </test> <!-- Correct_image_on_product_page -->
+    <test started-at="2023-04-03T08:47:20Z" name="Del_product_from_cart_on_cart_page" finished-at="2023-04-03T08:47:24Z" duration-ms="3599">
+      <class name="tests.swag_labs_functional.Del_product_from_cart_on_cart_page">
+        <test-method signature="del_product_from_cart_on_cart_page()[pri:0, instance:tests.swag_labs_functional.Del_product_from_cart_on_cart_page@77724cbe]" started-at="2023-04-03T08:47:20Z" name="del_product_from_cart_on_cart_page" finished-at="2023-04-03T08:47:23Z" duration-ms="3083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- del_product_from_cart_on_cart_page -->
+        <test-method is-config="true" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.swag_labs_functional.Del_product_from_cart_on_cart_page@77724cbe]" started-at="2023-04-03T08:47:23Z" name="clearCookiesAndLocalStorage" finished-at="2023-04-03T08:47:23Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesAndLocalStorage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.swag_labs_functional.Del_product_from_cart_on_cart_page@77724cbe]" started-at="2023-04-03T08:47:23Z" name="close" finished-at="2023-04-03T08:47:24Z" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.swag_labs_functional.Del_product_from_cart_on_cart_page -->
+    </test> <!-- Del_product_from_cart_on_cart_page -->
+    <test started-at="2023-04-03T08:47:24Z" name="Del_product_from_cart_on_personal_product_page" finished-at="2023-04-03T08:47:27Z" duration-ms="3643">
+      <class name="tests.swag_labs_functional.Del_product_from_cart_on_personal_product_page">
+        <test-method signature="del_product_from_cart_on_personal_product_page()[pri:0, instance:tests.swag_labs_functional.Del_product_from_cart_on_personal_product_page@5ac53c06]" started-at="2023-04-03T08:47:24Z" name="del_product_from_cart_on_personal_product_page" finished-at="2023-04-03T08:47:27Z" duration-ms="3148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- del_product_from_cart_on_personal_product_page -->
+        <test-method is-config="true" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.swag_labs_functional.Del_product_from_cart_on_personal_product_page@5ac53c06]" started-at="2023-04-03T08:47:27Z" name="clearCookiesAndLocalStorage" finished-at="2023-04-03T08:47:27Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesAndLocalStorage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.swag_labs_functional.Del_product_from_cart_on_personal_product_page@5ac53c06]" started-at="2023-04-03T08:47:27Z" name="close" finished-at="2023-04-03T08:47:27Z" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.swag_labs_functional.Del_product_from_cart_on_personal_product_page -->
+    </test> <!-- Del_product_from_cart_on_personal_product_page -->
+    <test started-at="2023-04-03T08:47:27Z" name="Del_product_from_cart_on_product_page" finished-at="2023-04-03T08:47:31Z" duration-ms="3885">
+      <class name="tests.swag_labs_functional.Del_product_from_cart_on_product_page">
+        <test-method signature="del_product_from_cart_on_product_page()[pri:0, instance:tests.swag_labs_functional.Del_product_from_cart_on_product_page@7c46c9c3]" started-at="2023-04-03T08:47:27Z" name="del_product_from_cart_on_product_page" finished-at="2023-04-03T08:47:31Z" duration-ms="3341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- del_product_from_cart_on_product_page -->
+        <test-method is-config="true" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.swag_labs_functional.Del_product_from_cart_on_product_page@7c46c9c3]" started-at="2023-04-03T08:47:31Z" name="clearCookiesAndLocalStorage" finished-at="2023-04-03T08:47:31Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesAndLocalStorage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.swag_labs_functional.Del_product_from_cart_on_product_page@7c46c9c3]" started-at="2023-04-03T08:47:31Z" name="close" finished-at="2023-04-03T08:47:31Z" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.swag_labs_functional.Del_product_from_cart_on_product_page -->
+    </test> <!-- Del_product_from_cart_on_product_page -->
+  </suite> <!-- Functional -->
+  <suite started-at="2023-04-03T08:47:35Z" name="Mastertest" finished-at="2023-04-03T08:47:35Z" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Mastertest -->
+  <suite started-at="2023-04-03T08:47:31Z" name="ProblemUserTest" finished-at="2023-04-03T08:47:35Z" duration-ms="3594">
+    <groups>
+    </groups>
+    <test started-at="2023-04-03T08:47:31Z" name="Correct_image_on_product_page_problem_user" finished-at="2023-04-03T08:47:35Z" duration-ms="3594">
+      <class name="tests.problem_user_swaglabs.Correct_image_on_product_page_problem_user">
+        <test-method signature="correct_image_on_product_page_problem_user()[pri:0, instance:tests.problem_user_swaglabs.Correct_image_on_product_page_problem_user@5efe47fd]" started-at="2023-04-03T08:47:31Z" name="correct_image_on_product_page_problem_user" finished-at="2023-04-03T08:47:34Z" duration-ms="2984" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Некорректное изображение]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Некорректное изображение
+at org.testng.Assert.fail(Assert.java:96)
+at tests.problem_user_swaglabs.Correct_image_on_product_page_problem_user.correct_image_on_product_page_problem_user(Correct_image_on_product_page_problem_user.java:69)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correct_image_on_product_page_problem_user -->
+        <test-method is-config="true" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.problem_user_swaglabs.Correct_image_on_product_page_problem_user@5efe47fd]" started-at="2023-04-03T08:47:34Z" name="clearCookiesAndLocalStorage" finished-at="2023-04-03T08:47:34Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesAndLocalStorage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.problem_user_swaglabs.Correct_image_on_product_page_problem_user@5efe47fd]" started-at="2023-04-03T08:47:34Z" name="close" finished-at="2023-04-03T08:47:35Z" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.problem_user_swaglabs.Correct_image_on_product_page_problem_user -->
+    </test> <!-- Correct_image_on_product_page_problem_user -->
+  </suite> <!-- ProblemUserTest -->
+  <suite started-at="2023-04-03T08:46:57Z" name="Regress" finished-at="2023-04-03T08:47:11Z" duration-ms="14268">
+    <groups>
+    </groups>
+    <test started-at="2023-04-03T08:46:57Z" name="Sort_A_to_Z" finished-at="2023-04-03T08:47:01Z" duration-ms="3811">
+      <class name="tests.swag_labs_regress.Sort_A_to_Z">
+        <test-method signature="sort_A_to_Z_test()[pri:0, instance:tests.swag_labs_regress.Sort_A_to_Z@786ff1cb]" started-at="2023-04-03T08:46:57Z" name="sort_A_to_Z_test" finished-at="2023-04-03T08:47:00Z" duration-ms="2705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sort_A_to_Z_test -->
+        <test-method is-config="true" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.swag_labs_regress.Sort_A_to_Z@786ff1cb]" started-at="2023-04-03T08:47:00Z" name="clearCookiesAndLocalStorage" finished-at="2023-04-03T08:47:00Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesAndLocalStorage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.swag_labs_regress.Sort_A_to_Z@786ff1cb]" started-at="2023-04-03T08:47:00Z" name="close" finished-at="2023-04-03T08:47:01Z" duration-ms="1076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.swag_labs_regress.Sort_A_to_Z -->
+    </test> <!-- Sort_A_to_Z -->
+    <test started-at="2023-04-03T08:47:01Z" name="Sort_Z_to_A" finished-at="2023-04-03T08:47:05Z" duration-ms="3843">
+      <class name="tests.swag_labs_regress.Sort_Z_to_A">
+        <test-method signature="sort_Z_to_A_test()[pri:0, instance:tests.swag_labs_regress.Sort_Z_to_A@550e9be6]" started-at="2023-04-03T08:47:01Z" name="sort_Z_to_A_test" finished-at="2023-04-03T08:47:04Z" duration-ms="2900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sort_Z_to_A_test -->
+        <test-method is-config="true" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.swag_labs_regress.Sort_Z_to_A@550e9be6]" started-at="2023-04-03T08:47:04Z" name="clearCookiesAndLocalStorage" finished-at="2023-04-03T08:47:04Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesAndLocalStorage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.swag_labs_regress.Sort_Z_to_A@550e9be6]" started-at="2023-04-03T08:47:04Z" name="close" finished-at="2023-04-03T08:47:05Z" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.swag_labs_regress.Sort_Z_to_A -->
+    </test> <!-- Sort_Z_to_A -->
+    <test started-at="2023-04-03T08:47:05Z" name="Sort_price_low_to_high" finished-at="2023-04-03T08:47:08Z" duration-ms="3165">
+      <class name="tests.swag_labs_regress.Sort_price_low_to_high">
+        <test-method signature="sort_low_to_high_price()[pri:0, instance:tests.swag_labs_regress.Sort_price_low_to_high@3fa21d49]" started-at="2023-04-03T08:47:05Z" name="sort_low_to_high_price" finished-at="2023-04-03T08:47:07Z" duration-ms="2434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sort_low_to_high_price -->
+        <test-method is-config="true" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.swag_labs_regress.Sort_price_low_to_high@3fa21d49]" started-at="2023-04-03T08:47:07Z" name="clearCookiesAndLocalStorage" finished-at="2023-04-03T08:47:07Z" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesAndLocalStorage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.swag_labs_regress.Sort_price_low_to_high@3fa21d49]" started-at="2023-04-03T08:47:07Z" name="close" finished-at="2023-04-03T08:47:08Z" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.swag_labs_regress.Sort_price_low_to_high -->
+    </test> <!-- Sort_price_low_to_high -->
+    <test started-at="2023-04-03T08:47:08Z" name="Sort_price_high_to_low" finished-at="2023-04-03T08:47:11Z" duration-ms="3414">
+      <class name="tests.swag_labs_regress.Sort_price_high_to_low">
+        <test-method signature="sort_high_to_low_price()[pri:0, instance:tests.swag_labs_regress.Sort_price_high_to_low@6707a4bf]" started-at="2023-04-03T08:47:08Z" name="sort_high_to_low_price" finished-at="2023-04-03T08:47:10Z" duration-ms="2411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sort_high_to_low_price -->
+        <test-method is-config="true" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.swag_labs_regress.Sort_price_high_to_low@6707a4bf]" started-at="2023-04-03T08:47:10Z" name="clearCookiesAndLocalStorage" finished-at="2023-04-03T08:47:10Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesAndLocalStorage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.swag_labs_regress.Sort_price_high_to_low@6707a4bf]" started-at="2023-04-03T08:47:10Z" name="close" finished-at="2023-04-03T08:47:11Z" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.swag_labs_regress.Sort_price_high_to_low -->
+    </test> <!-- Sort_price_high_to_low -->
+  </suite> <!-- Regress -->
+</testng-results>

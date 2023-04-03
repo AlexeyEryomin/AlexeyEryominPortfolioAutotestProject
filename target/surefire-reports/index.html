@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">5 suites, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SmokeTest" class="navigator-link">
+              <span class="suite-name border-passed">SmokeTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SmokeTest" class="navigator-link ">
+                    <span>C:\Users\Alexe\IdeaProjects\PortfolioAutotestProject\src\test\resources\smoke_test.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SmokeTest" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SmokeTest" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SmokeTest" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SmokeTest" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SmokeTest" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SmokeTest" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SmokeTest" class="hide-methods passed suite-SmokeTest"> (hide)</a> <!-- hide-methods passed suite-SmokeTest -->
+                      <a href="#" panel-name="suite-SmokeTest" class="show-methods passed suite-SmokeTest"> (show)</a> <!-- show-methods passed suite-SmokeTest -->
+                    </span>
+                    <div class="method-list-content passed suite-SmokeTest">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="tests.swag_labs_smoke.Smoke_test" class="method navigator-link" hash-for-method="smokeTest">smokeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SmokeTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Functional" class="navigator-link">
+              <span class="suite-name border-passed">Functional</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Functional" class="navigator-link ">
+                    <span>C:\Users\Alexe\IdeaProjects\PortfolioAutotestProject\src\test\resources\functional.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Functional" class="navigator-link ">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Functional" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Functional" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Functional" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Functional" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Functional" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Functional" class="hide-methods passed suite-Functional"> (hide)</a> <!-- hide-methods passed suite-Functional -->
+                      <a href="#" panel-name="suite-Functional" class="show-methods passed suite-Functional"> (show)</a> <!-- show-methods passed suite-Functional -->
+                    </span>
+                    <div class="method-list-content passed suite-Functional">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional" title="tests.swag_labs_functional.Add_product_to_cart_on_personal_product_page" class="method navigator-link" hash-for-method="add_product_to_cart_on_personal_product_page">add_product_to_cart_on_personal_product_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional" title="tests.swag_labs_functional.Add_product_to_cart_on_product_page" class="method navigator-link" hash-for-method="add_product_to_cart_on_product_page">add_product_to_cart_on_product_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional" title="tests.swag_labs_functional.Correct_image_on_product_page" class="method navigator-link" hash-for-method="correct_image_on_product_page">correct_image_on_product_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional" title="tests.swag_labs_functional.Del_product_from_cart_on_cart_page" class="method navigator-link" hash-for-method="del_product_from_cart_on_cart_page">del_product_from_cart_on_cart_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional" title="tests.swag_labs_functional.Del_product_from_cart_on_personal_product_page" class="method navigator-link" hash-for-method="del_product_from_cart_on_personal_product_page">del_product_from_cart_on_personal_product_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional" title="tests.swag_labs_functional.Del_product_from_cart_on_product_page" class="method navigator-link" hash-for-method="del_product_from_cart_on_product_page">del_product_from_cart_on_product_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Functional -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ProblemUserTest" class="navigator-link">
+              <span class="suite-name border-failed">ProblemUserTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ProblemUserTest" class="navigator-link ">
+                    <span>C:\Users\Alexe\IdeaProjects\PortfolioAutotestProject\src\test\resources\problem_user_test.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ProblemUserTest" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ProblemUserTest" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ProblemUserTest" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ProblemUserTest" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ProblemUserTest" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ProblemUserTest" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ProblemUserTest" class="hide-methods failed suite-ProblemUserTest"> (hide)</a> <!-- hide-methods failed suite-ProblemUserTest -->
+                      <a href="#" panel-name="suite-ProblemUserTest" class="show-methods failed suite-ProblemUserTest"> (show)</a> <!-- show-methods failed suite-ProblemUserTest -->
+                    </span>
+                    <div class="method-list-content failed suite-ProblemUserTest">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ProblemUserTest" title="tests.problem_user_swaglabs.Correct_image_on_product_page_problem_user" class="method navigator-link" hash-for-method="correct_image_on_product_page_problem_user">correct_image_on_product_page_problem_user</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ProblemUserTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Regress" class="navigator-link">
+              <span class="suite-name border-passed">Regress</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Regress" class="navigator-link ">
+                    <span>C:\Users\Alexe\IdeaProjects\PortfolioAutotestProject\src\test\resources\regress.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Regress" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Regress" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Regress" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Regress" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Regress" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Regress" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Regress" class="hide-methods passed suite-Regress"> (hide)</a> <!-- hide-methods passed suite-Regress -->
+                      <a href="#" panel-name="suite-Regress" class="show-methods passed suite-Regress"> (show)</a> <!-- show-methods passed suite-Regress -->
+                    </span>
+                    <div class="method-list-content passed suite-Regress">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regress" title="tests.swag_labs_regress.Sort_A_to_Z" class="method navigator-link" hash-for-method="sort_A_to_Z_test">sort_A_to_Z_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regress" title="tests.swag_labs_regress.Sort_Z_to_A" class="method navigator-link" hash-for-method="sort_Z_to_A_test">sort_Z_to_A_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regress" title="tests.swag_labs_regress.Sort_price_high_to_low" class="method navigator-link" hash-for-method="sort_high_to_low_price">sort_high_to_low_price</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regress" title="tests.swag_labs_regress.Sort_price_low_to_high" class="method navigator-link" hash-for-method="sort_low_to_high_price">sort_low_to_high_price</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Regress -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SmokeTest" class="panel SmokeTest">
+          <div class="suite-SmokeTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.swag_labs_smoke.Smoke_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="smokeTest">
+                  </a> <!-- smokeTest -->
+                  <span class="method-name">smokeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTest-class-passed -->
+        </div> <!-- panel SmokeTest -->
+        <div panel-name="suite-Functional" class="panel Functional">
+          <div class="suite-Functional-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.swag_labs_functional.Del_product_from_cart_on_cart_page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="del_product_from_cart_on_cart_page">
+                  </a> <!-- del_product_from_cart_on_cart_page -->
+                  <span class="method-name">del_product_from_cart_on_cart_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functional-class-passed -->
+          <div class="suite-Functional-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.swag_labs_functional.Correct_image_on_product_page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="correct_image_on_product_page">
+                  </a> <!-- correct_image_on_product_page -->
+                  <span class="method-name">correct_image_on_product_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functional-class-passed -->
+          <div class="suite-Functional-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.swag_labs_functional.Del_product_from_cart_on_product_page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="del_product_from_cart_on_product_page">
+                  </a> <!-- del_product_from_cart_on_product_page -->
+                  <span class="method-name">del_product_from_cart_on_product_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functional-class-passed -->
+          <div class="suite-Functional-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.swag_labs_functional.Del_product_from_cart_on_personal_product_page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="del_product_from_cart_on_personal_product_page">
+                  </a> <!-- del_product_from_cart_on_personal_product_page -->
+                  <span class="method-name">del_product_from_cart_on_personal_product_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functional-class-passed -->
+          <div class="suite-Functional-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.swag_labs_functional.Add_product_to_cart_on_personal_product_page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_product_to_cart_on_personal_product_page">
+                  </a> <!-- add_product_to_cart_on_personal_product_page -->
+                  <span class="method-name">add_product_to_cart_on_personal_product_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functional-class-passed -->
+          <div class="suite-Functional-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.swag_labs_functional.Add_product_to_cart_on_product_page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_product_to_cart_on_product_page">
+                  </a> <!-- add_product_to_cart_on_product_page -->
+                  <span class="method-name">add_product_to_cart_on_product_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functional-class-passed -->
+        </div> <!-- panel Functional -->
+        <div panel-name="suite-Mastertest" class="panel Mastertest">
+        </div> <!-- panel Mastertest -->
+        <div panel-name="suite-ProblemUserTest" class="panel ProblemUserTest">
+          <div class="suite-ProblemUserTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.problem_user_swaglabs.Correct_image_on_product_page_problem_user</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="correct_image_on_product_page_problem_user">
+                  </a> <!-- correct_image_on_product_page_problem_user -->
+                  <span class="method-name">correct_image_on_product_page_problem_user</span>
+                  <div class="stack-trace">java.lang.AssertionError: Некорректное изображение
+	at tests.problem_user_swaglabs.Correct_image_on_product_page_problem_user.correct_image_on_product_page_problem_user(Correct_image_on_product_page_problem_user.java:69)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ProblemUserTest-class-failed -->
+        </div> <!-- panel ProblemUserTest -->
+        <div panel-name="suite-Regress" class="panel Regress">
+          <div class="suite-Regress-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.swag_labs_regress.Sort_price_low_to_high</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sort_low_to_high_price">
+                  </a> <!-- sort_low_to_high_price -->
+                  <span class="method-name">sort_low_to_high_price</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regress-class-passed -->
+          <div class="suite-Regress-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.swag_labs_regress.Sort_A_to_Z</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sort_A_to_Z_test">
+                  </a> <!-- sort_A_to_Z_test -->
+                  <span class="method-name">sort_A_to_Z_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regress-class-passed -->
+          <div class="suite-Regress-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.swag_labs_regress.Sort_Z_to_A</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sort_Z_to_A_test">
+                  </a> <!-- sort_Z_to_A_test -->
+                  <span class="method-name">sort_Z_to_A_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regress-class-passed -->
+          <div class="suite-Regress-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.swag_labs_regress.Sort_price_high_to_low</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sort_high_to_low_price">
+                  </a> <!-- sort_high_to_low_price -->
+                  <span class="method-name">sort_high_to_low_price</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regress-class-passed -->
+        </div> <!-- panel Regress -->
+        <div panel-name="test-xml-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Alexe\IdeaProjects\PortfolioAutotestProject\src\test\resources\smoke_test.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SmokeTest&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SmokeTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.swag_labs_smoke.Smoke_test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SmokeTest --&gt;
+&lt;/suite&gt; &lt;!-- SmokeTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Functional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Alexe\IdeaProjects\PortfolioAutotestProject\src\test\resources\functional.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Functional&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Add_product_to_cart_on_personal_product_page&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.swag_labs_functional.Add_product_to_cart_on_personal_product_page&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add_product_to_cart_on_personal_product_page --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Add_product_to_cart_on_product_page&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.swag_labs_functional.Add_product_to_cart_on_product_page&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add_product_to_cart_on_product_page --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Correct_image_on_product_page&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.swag_labs_functional.Correct_image_on_product_page&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Correct_image_on_product_page --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Del_product_from_cart_on_cart_page&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.swag_labs_functional.Del_product_from_cart_on_cart_page&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Del_product_from_cart_on_cart_page --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Del_product_from_cart_on_personal_product_page&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.swag_labs_functional.Del_product_from_cart_on_personal_product_page&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Del_product_from_cart_on_personal_product_page --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Del_product_from_cart_on_product_page&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.swag_labs_functional.Del_product_from_cart_on_product_page&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Del_product_from_cart_on_product_page --&gt;
+&lt;/suite&gt; &lt;!-- Functional --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Mastertest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Alexe\IdeaProjects\PortfolioAutotestProject\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Mastertest&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;smoke_test.xml&quot;/&gt;
+    &lt;suite-file path=&quot;regress.xml&quot;/&gt;
+    &lt;suite-file path=&quot;functional.xml&quot;/&gt;
+    &lt;suite-file path=&quot;problem_user_test.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- Mastertest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-ProblemUserTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Alexe\IdeaProjects\PortfolioAutotestProject\src\test\resources\problem_user_test.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;ProblemUserTest&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Correct_image_on_product_page_problem_user&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.problem_user_swaglabs.Correct_image_on_product_page_problem_user&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Correct_image_on_product_page_problem_user --&gt;
+&lt;/suite&gt; &lt;!-- ProblemUserTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Regress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Alexe\IdeaProjects\PortfolioAutotestProject\src\test\resources\regress.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Regress&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Sort_A_to_Z&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.swag_labs_regress.Sort_A_to_Z&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sort_A_to_Z --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Sort_Z_to_A&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.swag_labs_regress.Sort_Z_to_A&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sort_Z_to_A --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Sort_price_low_to_high&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.swag_labs_regress.Sort_price_low_to_high&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sort_price_low_to_high --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Sort_price_high_to_low&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.swag_labs_regress.Sort_price_high_to_low&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sort_price_high_to_low --&gt;
+&lt;/suite&gt; &lt;!-- Regress --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SmokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SmokeTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Functional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Functional</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Add_product_to_cart_on_personal_product_page (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Add_product_to_cart_on_product_page (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Correct_image_on_product_page (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Del_product_from_cart_on_cart_page (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Del_product_from_cart_on_personal_product_page (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Del_product_from_cart_on_product_page (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Mastertest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Mastertest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ProblemUserTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ProblemUserTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Correct_image_on_product_page_problem_user (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Regress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Regress</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Sort_A_to_Z (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Sort_Z_to_A (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Sort_price_low_to_high (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Sort_price_high_to_low (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SmokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Functional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Functional</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Mastertest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Mastertest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ProblemUserTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ProblemUserTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Regress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Regress</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SmokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SmokeTest');
+function tableData_SmokeTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'smokeTest')
+data.setCell(0, 2, 'tests.swag_labs_smoke.Smoke_test')
+data.setCell(0, 3, 4382);
+window.suiteTableData['SmokeTest']= { tableData: data, tableDiv: 'times-div-SmokeTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-SmokeTest">
+              </div> <!-- times-div-SmokeTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Functional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Functional</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Functional');
+function tableData_Functional() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'del_product_from_cart_on_product_page')
+data.setCell(0, 2, 'tests.swag_labs_functional.Del_product_from_cart_on_product_page')
+data.setCell(0, 3, 3341);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'del_product_from_cart_on_personal_product_page')
+data.setCell(1, 2, 'tests.swag_labs_functional.Del_product_from_cart_on_personal_product_page')
+data.setCell(1, 3, 3148);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'del_product_from_cart_on_cart_page')
+data.setCell(2, 2, 'tests.swag_labs_functional.Del_product_from_cart_on_cart_page')
+data.setCell(2, 3, 3083);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'add_product_to_cart_on_personal_product_page')
+data.setCell(3, 2, 'tests.swag_labs_functional.Add_product_to_cart_on_personal_product_page')
+data.setCell(3, 3, 2323);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'correct_image_on_product_page')
+data.setCell(4, 2, 'tests.swag_labs_functional.Correct_image_on_product_page')
+data.setCell(4, 3, 2072);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'add_product_to_cart_on_product_page')
+data.setCell(5, 2, 'tests.swag_labs_functional.Add_product_to_cart_on_product_page')
+data.setCell(5, 3, 1923);
+window.suiteTableData['Functional']= { tableData: data, tableDiv: 'times-div-Functional'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <div id="times-div-Functional">
+              </div> <!-- times-div-Functional -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Mastertest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Mastertest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Mastertest');
+function tableData_Mastertest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['Mastertest']= { tableData: data, tableDiv: 'times-div-Mastertest'}
+return data;
+}
+              </script>
+              <div id="times-div-Mastertest">
+              </div> <!-- times-div-Mastertest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ProblemUserTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ProblemUserTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ProblemUserTest');
+function tableData_ProblemUserTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'correct_image_on_product_page_problem_user')
+data.setCell(0, 2, 'tests.problem_user_swaglabs.Correct_image_on_product_page_problem_user')
+data.setCell(0, 3, 2984);
+window.suiteTableData['ProblemUserTest']= { tableData: data, tableDiv: 'times-div-ProblemUserTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-ProblemUserTest">
+              </div> <!-- times-div-ProblemUserTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Regress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Regress</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Regress');
+function tableData_Regress() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'sort_Z_to_A_test')
+data.setCell(0, 2, 'tests.swag_labs_regress.Sort_Z_to_A')
+data.setCell(0, 3, 2900);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'sort_A_to_Z_test')
+data.setCell(1, 2, 'tests.swag_labs_regress.Sort_A_to_Z')
+data.setCell(1, 3, 2705);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'sort_low_to_high_price')
+data.setCell(2, 2, 'tests.swag_labs_regress.Sort_price_low_to_high')
+data.setCell(2, 3, 2434);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'sort_high_to_low_price')
+data.setCell(3, 2, 'tests.swag_labs_regress.Sort_price_high_to_low')
+data.setCell(3, 3, 2411);
+window.suiteTableData['Regress']= { tableData: data, tableDiv: 'times-div-Regress'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-Regress">
+              </div> <!-- times-div-Regress -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SmokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Functional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Functional</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Mastertest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Mastertest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ProblemUserTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ProblemUserTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Regress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Regress</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Functional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Mastertest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ProblemUserTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Regress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.swag_labs_smoke.Smoke_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">smokeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">clearCookiesAndLocalStorage</span>
+                <span class="method-start">4547 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">4844 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Functional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.swag_labs_functional.Add_product_to_cart_on_personal_product_page</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">add_product_to_cart_on_personal_product_page</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">clearCookiesAndLocalStorage</span>
+                <span class="method-start">2325 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">2352 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.swag_labs_functional.Add_product_to_cart_on_product_page</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">add_product_to_cart_on_product_page</span>
+                <span class="method-start">2928 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">clearCookiesAndLocalStorage</span>
+                <span class="method-start">4853 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">4873 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.swag_labs_functional.Correct_image_on_product_page</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">correct_image_on_product_page</span>
+                <span class="method-start">6068 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">clearCookiesAndLocalStorage</span>
+                <span class="method-start">8142 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">8158 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.swag_labs_functional.Del_product_from_cart_on_cart_page</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">del_product_from_cart_on_cart_page</span>
+                <span class="method-start">8685 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">clearCookiesAndLocalStorage</span>
+                <span class="method-start">11770 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">11788 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.swag_labs_functional.Del_product_from_cart_on_personal_product_page</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">del_product_from_cart_on_personal_product_page</span>
+                <span class="method-start">12291 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">clearCookiesAndLocalStorage</span>
+                <span class="method-start">15447 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">15463 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.swag_labs_functional.Del_product_from_cart_on_product_page</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">del_product_from_cart_on_product_page</span>
+                <span class="method-start">15941 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">clearCookiesAndLocalStorage</span>
+                <span class="method-start">19284 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">19301 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Mastertest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ProblemUserTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.problem_user_swaglabs.Correct_image_on_product_page_problem_user</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">correct_image_on_product_page_problem_user</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">clearCookiesAndLocalStorage</span>
+                <span class="method-start">2998 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">3012 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Regress" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.swag_labs_regress.Sort_A_to_Z</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sort_A_to_Z_test</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">clearCookiesAndLocalStorage</span>
+                <span class="method-start">2708 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">2735 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.swag_labs_regress.Sort_Z_to_A</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sort_Z_to_A_test</span>
+                <span class="method-start">3822 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">clearCookiesAndLocalStorage</span>
+                <span class="method-start">6724 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">6745 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.swag_labs_regress.Sort_price_low_to_high</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sort_low_to_high_price</span>
+                <span class="method-start">7679 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">clearCookiesAndLocalStorage</span>
+                <span class="method-start">10115 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">10157 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.swag_labs_regress.Sort_price_high_to_low</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sort_high_to_low_price</span>
+                <span class="method-start">10855 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">clearCookiesAndLocalStorage</span>
+                <span class="method-start">13268 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">13286 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

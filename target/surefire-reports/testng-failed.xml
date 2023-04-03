@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ProblemUserTest]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Correct_image_on_product_page_problem_user(failed)" verbose="0">
+    <classes>
+      <class name="tests.problem_user_swaglabs.Correct_image_on_product_page_problem_user">
+        <methods>
+          <include name="correct_image_on_product_page_problem_user"/>
+          <include name="clearCookiesAndLocalStorage"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- tests.problem_user_swaglabs.Correct_image_on_product_page_problem_user -->
+    </classes>
+  </test> <!-- Correct_image_on_product_page_problem_user(failed) -->
+</suite> <!-- Failed suite [ProblemUserTest] -->

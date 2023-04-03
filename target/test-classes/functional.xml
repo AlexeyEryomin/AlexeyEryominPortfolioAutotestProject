@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functional">
+    <test name="Add_product_to_cart_on_personal_product_page">
+        <classes>
+            <class name="tests.swag_labs_functional.Add_product_to_cart_on_personal_product_page"></class>
+        </classes>
+    </test>
+    <test name="Add_product_to_cart_on_product_page">
+        <classes>
+            <class name="tests.swag_labs_functional.Add_product_to_cart_on_product_page"></class>
+        </classes>
+    </test>
+    <test name="Correct_image_on_product_page">
+        <classes>
+            <class name="tests.swag_labs_functional.Correct_image_on_product_page"></class>
+        </classes>
+    </test>
+    <test name="Del_product_from_cart_on_cart_page">
+        <classes>
+            <class name="tests.swag_labs_functional.Del_product_from_cart_on_cart_page"></class>
+        </classes>
+    </test>
+    <test name="Del_product_from_cart_on_personal_product_page">
+        <classes>
+            <class name="tests.swag_labs_functional.Del_product_from_cart_on_personal_product_page"></class>
+        </classes>
+    </test>
+    <test name="Del_product_from_cart_on_product_page">
+        <classes>
+            <class name="tests.swag_labs_functional.Del_product_from_cart_on_product_page"></class>
+        </classes>
+    </test>
+</suite>
+

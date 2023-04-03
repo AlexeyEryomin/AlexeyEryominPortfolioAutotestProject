@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="93.424" tests="12" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Barnaul"/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3\plugins\maven\lib\maven3/conf"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.3 clean validate compile test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3\plugins\maven\lib\maven3"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Alexe"/>
+    <property name="user.language" value="ru"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
+    <property name="user.name" value="Alexe"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Alexe\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.3.3"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="user.dir" value="C:\Users\Alexe\IdeaProjects\PortfolioAutotestProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Alexe\IdeaProjects\PortfolioAutotestProject"/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Alexe\IdeaProjects\java_projects\tools\apache-maven-3.9.0\bin;C:\Users\Alexe\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Alexe\AppData\Local\Programs\Python\Python311\;C:\Users\Alexe\AppData\Local\Microsoft\WindowsApps;C:\Users\Alexe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Alexe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3\bin;C:\Users\Alexe\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="smokeTest" classname="tests.swag_labs_smoke.Smoke_test" time="4.381"/>
+  <testcase name="sort_A_to_Z_test" classname="tests.swag_labs_regress.Sort_A_to_Z" time="2.704"/>
+  <testcase name="sort_Z_to_A_test" classname="tests.swag_labs_regress.Sort_Z_to_A" time="2.899"/>
+  <testcase name="sort_low_to_high_price" classname="tests.swag_labs_regress.Sort_price_low_to_high" time="2.434"/>
+  <testcase name="sort_high_to_low_price" classname="tests.swag_labs_regress.Sort_price_high_to_low" time="2.41"/>
+  <testcase name="add_product_to_cart_on_personal_product_page" classname="tests.swag_labs_functional.Add_product_to_cart_on_personal_product_page" time="2.322"/>
+  <testcase name="add_product_to_cart_on_product_page" classname="tests.swag_labs_functional.Add_product_to_cart_on_product_page" time="1.921"/>
+  <testcase name="correct_image_on_product_page" classname="tests.swag_labs_functional.Correct_image_on_product_page" time="2.072"/>
+  <testcase name="del_product_from_cart_on_cart_page" classname="tests.swag_labs_functional.Del_product_from_cart_on_cart_page" time="3.082"/>
+  <testcase name="del_product_from_cart_on_personal_product_page" classname="tests.swag_labs_functional.Del_product_from_cart_on_personal_product_page" time="3.148"/>
+  <testcase name="del_product_from_cart_on_product_page" classname="tests.swag_labs_functional.Del_product_from_cart_on_product_page" time="3.341"/>
+  <testcase name="correct_image_on_product_page_problem_user" classname="tests.problem_user_swaglabs.Correct_image_on_product_page_problem_user" time="2.995">
+    <failure message="Некорректное изображение" type="java.lang.AssertionError">java.lang.AssertionError: Некорректное изображение
+	at tests.problem_user_swaglabs.Correct_image_on_product_page_problem_user.correct_image_on_product_page_problem_user(Correct_image_on_product_page_problem_user.java:69)
+</failure>
+  </testcase>
+</testsuite>

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 93.424 s <<< FAILURE! - in TestSuite
+correct_image_on_product_page_problem_user(tests.problem_user_swaglabs.Correct_image_on_product_page_problem_user)  Time elapsed: 2.995 s  <<< FAILURE!
+java.lang.AssertionError: Некорректное изображение
+	at tests.problem_user_swaglabs.Correct_image_on_product_page_problem_user.correct_image_on_product_page_problem_user(Correct_image_on_product_page_problem_user.java:69)
+

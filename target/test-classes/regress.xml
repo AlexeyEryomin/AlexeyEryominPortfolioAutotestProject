@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regress">
+    <test name="Sort_A_to_Z">
+        <classes>
+            <class name="tests.swag_labs_regress.Sort_A_to_Z"></class>
+        </classes>
+    </test>
+    <test name="Sort_Z_to_A">
+        <classes>
+            <class name="tests.swag_labs_regress.Sort_Z_to_A"></class>
+        </classes>
+    </test>
+    <test name="Sort_price_low_to_high">
+        <classes>
+            <class name="tests.swag_labs_regress.Sort_price_low_to_high"></class>
+        </classes>
+    </test>
+    <test name="Sort_price_high_to_low">
+        <classes>
+            <class name="tests.swag_labs_regress.Sort_price_high_to_low"></class>
+        </classes>
+    </test>
+</suite>
+

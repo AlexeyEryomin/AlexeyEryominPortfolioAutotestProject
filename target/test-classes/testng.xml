@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mastertest">
+    <suite-files>
+        <suite-file path="smoke_test.xml"></suite-file>
+        <suite-file path="regress.xml"></suite-file>
+        <suite-file path="functional.xml"></suite-file>
+        <suite-file path="problem_user_test.xml"></suite-file>
+    </suite-files>
+</suite>
+
